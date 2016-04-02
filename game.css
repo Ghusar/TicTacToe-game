@@ -50,3 +50,51 @@
 	color:blue;
 	
 }
+#winbox {
+	position:absolute;
+	top:200px;
+	left:450px;
+	display:none;
+	width:400px;
+	height:300px;
+	background-color:blue;
+	color:white;
+	text-align:center;
+	color:yellow;
+	font-size:30px;
+	
+}
+#winm{
+	margin-top:50px;
+}
+.rop{
+	display:inline-block;
+	margin:50px;
+	width:25%;
+	padding:auto;
+	background:yellow;
+	color:red;
+}
+
+#selectionbox{
+	position:absolute;
+	top:200px;
+	left:450px;
+	display:none;
+	width:400px;
+	height:300px;
+	background-color:blue;
+	color:white;
+	text-align:center;
+	color:yellow;
+	font-size:30px;
+	
+}
+.sop{
+	display:inline-block;
+	margin:30px;
+	width:25%;
+	padding:auto;
+	background:yellow;
+	color:red;
+}
