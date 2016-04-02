@@ -286,7 +286,7 @@ function click22(){
 
 function check_win(){
 	if(moves>=9){
-		alertbox.innerHTML="game is draw";
+		showdraw();
 		return 1;
 	}
 	counter1=0;
@@ -426,6 +426,12 @@ function rok(){
 function rno(){
 	winbox.style.display = "none";
 	alertbox.style.display = "none";
+}
+function showdraw(){
+	winbox = document.getElementById("winbox");
+	winm  = document.getElementById("winm");
+	winm.innerHTML = "Game is Draw" + " do you want to play again?";
+	winbox.style.display = "block";
 }
 
 
